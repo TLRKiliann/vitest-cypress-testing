@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MatchSnapShot FirstComp 1`] = `
+[
+  <h1
+    data-testid="first-comp"
+    style={
+      {
+        "color": "hotpink",
+      }
+    }
+  >
+    React-Dev
+  </h1>,
+  <form
+    data-testid="testid-form"
+    onSubmit={[Function]}
+  >
+    <input
+      data-testid="testid-event"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      data-testid="testid"
+      type="submit"
+    >
+      Enter
+    </button>
+  </form>,
+  <button
+    data-testid="testid-reverse"
+    onClick={[Function]}
+    type="button"
+  >
+    Reverse
+  </button>,
+]
+`;

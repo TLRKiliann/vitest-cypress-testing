@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MatchSnapShot test Subscribe 1`] = `
+<div
+  data-testid="testid-divthird"
+>
+  <div
+    className="div--li"
+  >
+    <p
+      data-testid="testid-datestr"
+    >
+      <li>
+         - 
+      </li>
+    </p>
+  </div>
+  <button
+    data-testid="testid-edit"
+    onClick={[Function]}
+    type="button"
+  >
+    Edit
+  </button>
+  <button
+    data-testid="testid-del"
+    onClick={[Function]}
+    type="button"
+  >
+    Delete
+  </button>
+</div>
+`;

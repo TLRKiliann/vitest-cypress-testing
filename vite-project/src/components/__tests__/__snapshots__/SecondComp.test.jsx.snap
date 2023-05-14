@@ -1,0 +1,74 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MatchSnapShot test Subscribe 1`] = `
+[
+  <h1
+    data-testid="second-comp"
+    style={
+      {
+        "color": "hotpink",
+      }
+    }
+  >
+    SecondComp
+  </h1>,
+  <div
+    style={
+      {
+        "alignItems": "left",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "left",
+        "marginBottom": "20px",
+      }
+    }
+  >
+    <label
+      style={
+        {
+          "textAlign": "left",
+        }
+      }
+    >
+      username
+    </label>
+    <input
+      data-testid="testid-inputone"
+      name="username"
+      onChange={[Function]}
+      placeholder="Henry"
+      type="text"
+      value="Henry"
+    />
+    <label
+      style={
+        {
+          "textAlign": "left",
+        }
+      }
+    >
+      password
+    </label>
+    <input
+      data-testid="testid-inputtwo"
+      onChange={[Function]}
+      required={true}
+      type="password"
+      value="Yohout"
+    />
+    <button
+      data-testid="testid-two"
+      onClick={[Function]}
+      type="button"
+    >
+      Show firstname
+       - 
+      0
+    </button>
+    <p>
+      password: 
+      Yohout
+    </p>
+  </div>,
+]
+`;
