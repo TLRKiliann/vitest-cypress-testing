@@ -46,17 +46,11 @@ src/setupTest.js
 import '@testing-library/jest-dom'
 ```
 
-**To run test :**
+## Run test
 
 $ pnpm test
 
 $ pnpm coverage
-
-## Cypress
-
-$ pnpm install cypress --save-dev
-
-$ pnpm dlx cypress open
 
 ```
  % Coverage report from c8
@@ -73,7 +67,11 @@ All files        |   93.91 |    93.18 |   84.21 |   93.91 |
 -----------------|---------|----------|---------|---------|-------------------
 ```
 
-Cypress
+## Cypress
+
+$ pnpm install cypress --save-dev
+
+$ pnpm dlx cypress open
 
 ```
 ====================================================================================================
